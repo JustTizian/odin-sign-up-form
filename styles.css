@@ -26,6 +26,7 @@ body {
 .side-image {
     flex: 1;
     background-color: black;
+    position: relative;
 }
 
 .side-image>img {
@@ -104,12 +105,57 @@ button{
 
     font-size: 1.05rem;
     font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #87a06d;
+}
+
+button:active{
+    background-color: #5e9a23;
 }
 
 p{
     margin-left: 50px;
 }
 
-span{
+.login-text{
     color:#596D48
+}
+
+.logo-display{
+    color:white;
+    position: absolute;
+    font-size: 5rem;
+    font-family: Norse, Arial, sans-serif;
+    top: 200px;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(10,10,10,0.6);
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 80%;
+    margin-right: 10px;
+}
+
+.image-author-credit{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
 }

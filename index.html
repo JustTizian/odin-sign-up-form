@@ -11,6 +11,12 @@
 <body>
     <div class="side-image">
         <img src="assets/background.jpg" alt="green leaf plant in closeup">
+        <div class="logo-display"><img src="assets/odin-lined.png" alt="">ODIN</div>
+        <p class="image-author-credit">Photo by &nbsp <span><a target="_blank" rel="noopener noreferrer"
+                    href="https://unsplash.com/@haliewestphoto">Haile West</a></span> &nbsp on &nbsp <span><a
+                    target="_blank" rel="noopener noreferrer"
+                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></span>
+        </p>
     </div>
     <div class="content">
         <h2>
@@ -24,20 +30,20 @@
             <h3>Let's do this!</h1>
 
                 <div class="form-row">
-                    <label>FIRST NAME<input type="text"></label>
-                    <label>LAST NAME<input type="text"></label>
+                    <label>FIRST NAME<input name="firstName" type="text"></label>
+                    <label>LAST NAME<input name="lastName" type="text"></label>
                 </div>
                 <div class="form-row">
-                    <label>EMAIL<input type="email"></label>
-                    <label>PHONE NUMBER<input type="tel"></label>
+                    <label>EMAIL<input name="email" type="email"></label>
+                    <label>PHONE NUMBER<input name="phoneNumber" type="tel"></label>
                 </div>
                 <div class="form-row">
-                    <label>PASSWORD<input type="password" required></label>
-                    <label>CONFIRM PASSWORD<input type="password" required></label>
+                    <label>PASSWORD<input name="password" type="password" required minlength="8"></label>
+                    <label>CONFIRM PASSWORD<input name="password" type="password" required minlength="8"></label>
                 </div>
         </form>
         <button type="submit" form="sign-up-form">Create Account</button>
-        <p>Already have an account? <span>Log in</span></p>
+        <p>Already have an account? <span class="login-text">Log in</span></p>
     </div>
 
 
