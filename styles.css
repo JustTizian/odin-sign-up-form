@@ -124,36 +124,35 @@ p{
     color:#596D48
 }
 
-.logo-display{
-    color:white;
-    position: absolute;
-    font-size: 5rem;
-    font-family: Norse, Arial, sans-serif;
-    top: 200px;
-    width: 100%;
-    height: 150px;
-    background-color: rgba(10,10,10,0.6);
-    
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 img{
     height: 80%;
     margin-right: 10px;
 }
 
+.logo-display,
 .image-author-credit{
-    color: white;
+    color:white;
     position: absolute;
-    bottom: 10px;
-
     width: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo-display{
+    font-size: 5rem;
+    font-family: Norse, Arial, sans-serif;
+    
+    top: 200px;
+    
+    height: 150px;
+    
+    background-color: rgba(10,10,10,0.6);
+}
+
+.image-author-credit{
+    bottom: 10px;
 }
 
 a{
